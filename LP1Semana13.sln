@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{1DFEFED7-3BF9-436C-B5B0-E6FD759B020B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleStuff", "MultipleStuff\MultipleStuff.csproj", "{178AEB91-BC1A-4D99-9453-E89912F8EDF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{1DFEFED7-3BF9-436C-B5B0-E6FD759B020B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DFEFED7-3BF9-436C-B5B0-E6FD759B020B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DFEFED7-3BF9-436C-B5B0-E6FD759B020B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{178AEB91-BC1A-4D99-9453-E89912F8EDF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178AEB91-BC1A-4D99-9453-E89912F8EDF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178AEB91-BC1A-4D99-9453-E89912F8EDF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178AEB91-BC1A-4D99-9453-E89912F8EDF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
