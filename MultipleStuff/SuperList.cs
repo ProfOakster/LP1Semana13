@@ -32,7 +32,39 @@ namespace MultipleStuff
             }
             return new MinMax(min, max);
         }
+
+        public Tuple<double, double> GetMinMax3()
+        {
+            double min = double.MaxValue;
+            double max = double.MinValue;
+
+            foreach (double num in this)
+            {
+                if (num < min) min = num;
+                if (num > max) max = num;
+            }
+            return new Tuple<double, double>(min, max);
+        }
+
+        public (double min, double max) GetMinMax4()
+        {
+            double min = double.MaxValue;
+            double max = double.MinValue;
+
+            foreach (double num in this)
+            {
+                if (num < min) min = num;
+                if (num > max) max = num;
+            }
+            return (min, max);
+        }
+
+
+
+
+
     }
+
     public struct MinMax
     {
         public double Min { get; }
