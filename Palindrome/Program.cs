@@ -6,7 +6,10 @@ namespace Palindrome
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            foreach (string arg in args)
+            {
+                Console.WriteLine($"{arg,8} -> {Program.Palindrome(arg)}");
+            }
         }
 
         static bool Palindrome(string testing)
@@ -15,9 +18,9 @@ namespace Palindrome
             {
                 if (testing.EndsWith(testing[0]))
                 {
-                    testing.Remove(0, 1);
-                    testing.Remove(testing.Length, 1);
-                    
+                    testing=testing.Remove(0, 1);
+                    testing=testing.Remove(testing.Length-1, 1);
+
                     return Program.Palindrome(testing);
                 }
                 else
