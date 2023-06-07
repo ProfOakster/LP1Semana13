@@ -6,7 +6,10 @@ namespace MultipleStuff
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            SuperList sl = new SuperList(){ 4f, -4f, 256f, 32256f};
+
+            sl.GetMinMax1(out double min1, out double max1);
+            Console.WriteLine($"GetMinMax1: min-{min1}; max-{max1}");
         }
     }
 }
